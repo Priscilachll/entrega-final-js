@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Tu Sitio de Reserva de Boletos</title>
+    <link rel="stylesheet" href="../estilos.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="reservas.html">Reservaciones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div id="seccion-contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta o comentario? ¡Contáctanos! Estamos aquí para ayudarte.</p>
+        
+        <form id="formulario-contacto">
+            <label for="nombre-contacto">Nombre:</label>
+            <input type="text" id="nombre-contacto" name="nombre-contacto" required>
+            
+            <label for="correo-contacto">Correo Electrónico:</label>
+            <input type="email" id="correo-contacto" name="correo-contacto" required>
+            
+            <label for="mensaje-contacto">Mensaje:</label>
+            <textarea id="mensaje-contacto" name="mensaje-contacto" rows="4" required></textarea>
+            
+            <button type="submit" class="boton-verde">Enviar Mensaje</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2023 Tu Sitio de Reserva de Boletos</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservaciones - Tu Sitio de Reserva de Boletos</title>
+    <link rel="stylesheet" href="../estilos.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="reservas.html">Reservaciones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <div id="seccion-reservas">
+        <h2>Reserva tus Boletos</h2>
+        <p>Selecciona un evento y reserva tus boletos para vivir una experiencia inolvidable.</p>
+        
+        <form id="formulario-reserva">
+            <label for="evento">Evento:</label>
+            <select id="evento" name="evento">
+                <option value="concierto">Concierto en Vivo</option>
+                <option value="conferencia">Conferencia Inspiradora</option>
+                <option value="deporte">Evento Deportivo</option>
+                <!-- Agrega opciones para otros tipos de eventos disponibles -->
+            </select>
+            
+            <label for="cantidad-boletos">Cantidad de Boletos:</label>
+            <input type="number" id="cantidad-boletos" name="cantidad-boletos" min="1" value="1">
+            
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            
+            <button type="submit" class="boton-verde">Reservar Boletos</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2023 Tu Sitio de Reserva de Boletos</p>
+    </footer>
+</body>
+</html>
